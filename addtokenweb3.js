@@ -20,7 +20,7 @@ function addIconM() {
 
 function addIconZ() {
     web3 = new Web3(window.ethereum);
-    const tokenAddress = '0x80453ACDfE0073D6743B27D72e06F48777EeAd80';
+    const tokenAddress = '0x82e412523593773170c44adf4f7629e797f427d1';
     const tokenSymbol = 'CLOWN';
     const tokenDecimals = 0;
     const tokenImage = 'https://mintmeme.github.io/img/clown512.png';
@@ -40,7 +40,7 @@ function addIconZ() {
 
 function addIconV() {
     web3 = new Web3(window.ethereum);
-    const tokenAddress = '0x2a886b947d5a8f0e09408C9069914Fa44C06ed7e';
+    const tokenAddress = '0x2bc398fd147f7f3e8e093a43d188be3af5c59dcd';
     const tokenSymbol = 'JOKERS';
     const tokenDecimals = 18;
     const tokenImage = 'https://mintmeme.github.io/img/joker512.png';
@@ -60,7 +60,7 @@ function addIconV() {
 
 function addIconU() {
     web3 = new Web3(window.ethereum);
-    const tokenAddress = '0x423805e13AF3f3183500BaE7Cf15c50420eC0bEF';
+    const tokenAddress = '0x7c75f7cda8674787c4d82b2222a9025ecdc1343f';
     const tokenSymbol = 'LOL';
     const tokenDecimals = 18;
     const tokenImage = 'https://mintmeme.github.io/img/lol512.png';
