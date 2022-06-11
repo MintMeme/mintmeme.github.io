@@ -23,7 +23,7 @@ function addIconZ() {
     const tokenAddress = '0x80453ACDfE0073D6743B27D72e06F48777EeAd80';
     const tokenSymbol = 'ZOMBIE';
     const tokenDecimals = 0;
-    const tokenImage = 'https://mazetoken.github.io/img/zombie512.png';
+    const tokenImage = 'https://mazetoken.github.io/img/clown512.png';
     ethereum.request({
             method: 'wallet_watchAsset',
             params: {

