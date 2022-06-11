@@ -57,9 +57,9 @@ function balanceFaucet() {
     //var content = "Your address: ";
     //content += zombieMaster;
     //$("#lang2").html(content);
-    var event = contractZombie.methods.balanceOf("0xE6fBa59BDf1EafA8b1B5ad57D9C4A354CA55D756").call()
+    var event = contractZombie.methods.balanceOf("0xa78f4c29dd4d4dfa1124cbcfe72da230f80879c8").call()
         .then(function (result) {
-    var content = "ZOMBIE faucet balance: ";
+    var content = "CLOWN faucet balance: ";
             alert(result);
     content += JSON.stringify(result.toString());
     $("#lang2").html(content);
@@ -116,11 +116,11 @@ function approveZ() {
     var content = "Approving transaction from: ";
     content += zombieMaster;
     $("#lang").html(content);
-    var event = contractZombie.methods.approve("0xBc6af81CE1bFae76a4cF6eD5BCE128e6FD2f0633", amount3).send({ from: zombieMaster })
+    var event = contractZombie.methods.approve("0x82E412523593773170C44adF4f7629e797F427D1", amount3).send({ from: zombieMaster })
         .then(function (receipt) {
             console.log(receipt);
     var content = "Approved!: ";
-            alert("Done. The horde is ready!")
+            alert("Done. Beware the clowns!")
     content += JSON.stringify(receipt.transactionHash);
     $("#lang").html(content);
         });;
@@ -139,7 +139,7 @@ function stakeTokens() {
         .then(function (receipt) {
             console.log(receipt);
     var content = "Transaction sent!: ";
-            alert("Done. Zombies are in the Vandals Bank now!");
+            alert("Done. Clowns entered the clowncar!");
     content += JSON.stringify(receipt.transactionHash);
     $("#lang1").html(content);
         });;
@@ -166,7 +166,7 @@ function claimTokens() {
         .then(function (receipt) {
             console.log(receipt);
     var content = "Transaction sent!: ";
-            alert("Done. Long live VANDALS!");
+            alert("Done. Long live JOKERS!");
     content += JSON.stringify(receipt.transactionHash);
     $("#lang3").html(content);
         });;
@@ -193,7 +193,7 @@ function unstakeTokens() {
         .then(function (receipt) {
             console.log(receipt);
     var content = "Transaction sent! ";
-            alert("Done. You`ve been zombified again!");
+            alert("Done. You`ve been pranked again!");
     content += JSON.stringify(receipt.transactionHash);
     $("#lang5").html(content);
         });;
@@ -203,7 +203,7 @@ function balanceBank() {
     //var content = "Your address: ";
     //content += zombieMaster;
     //$("#lang6").html(content);
-    var event = contractVandals.methods.balanceOf("0xBc6af81CE1bFae76a4cF6eD5BCE128e6FD2f0633").call()
+    var event = contractVandals.methods.balanceOf("0x91b33d1030a466379ac6c887c5c57203e7a8fd29").call()
         .then(function (result) {
     var content = "Vandals Bank balance: ";
             alert(result/100000000);
@@ -220,7 +220,7 @@ function approveM() {
     var content = "Approving transaction from: ";
     content += zombieMaster;
     $("#lang7").html(content);
-    var event = contractMaze.methods.approve("0x381Fe35FCcA720efda008Ed182D0210519928638", amount6).send({ from: zombieMaster })
+    var event = contractMaze.methods.approve("0xc277A0F8405dC5c45A55726955eb6C4d430D61c2", amount6).send({ from: zombieMaster })
         .then(function (receipt) {
             console.log(receipt);
     var content = "Approved!: ";
@@ -305,7 +305,7 @@ function balanceBank2() {
     //var content = "Your address: ";
     //content += zombieMaster;
     //$("#lang13").html(content);
-    var event = contractUnderground.methods.balanceOf("0x381Fe35FCcA720efda008Ed182D0210519928638").call()
+    var event = contractUnderground.methods.balanceOf("0x634db42e314295b0ba12d1289e82ce3242d281e9").call()
         .then(function (result) {
     var content = "Vandals Bank balance: ";
             alert(result/100000000);
