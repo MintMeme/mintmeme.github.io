@@ -1,9 +1,9 @@
 function addIconM() {
     web3 = new Web3(window.ethereum);
-    const tokenAddress = '0x481De06DCA0198844faA36FCa04Db364e5c2f86C';
-    const tokenSymbol = 'MAZE';
-    const tokenDecimals = 6;
-    const tokenImage = 'https://mazetoken.github.io/img/maze512.png';
+    const tokenAddress = '0xc277A0F8405dC5c45A55726955eb6C4d430D61c2';
+    const tokenSymbol = 'MEME';
+    const tokenDecimals = 18;
+    const tokenImage = 'https://mazetoken.github.io/img/meme512.png';
     ethereum.request({
             method: 'wallet_watchAsset',
             params: {

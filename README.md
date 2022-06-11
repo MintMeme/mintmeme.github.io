@@ -1,5 +1,3 @@
-## Maze Tokens Underworld
+## MemeLife Funiverse
 
-Collection of tokens and activities on Bitcoin Cash smartBCH and SLP
-
-https://t.me/mazetokens
+Collection of tokens and activities on MintMe
