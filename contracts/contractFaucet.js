@@ -76,4 +76,4 @@ var contractFaucet = new web3.eth.Contract(
 	"stateMutability": "view",
 	"type": "function"
 	}
-], "0xE6fBa59BDf1EafA8b1B5ad57D9C4A354CA55D756");
+], "0xa78f4c29dd4d4dfa1124cbcfe72da230f80879c8");
