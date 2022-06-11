@@ -99,7 +99,7 @@ function balanceFaucet2() {
     //$("#lang5").html(content);
     var event = contractUnderground.methods.balanceOf("0x6FAE0c62687EdCCDe384eD12cC0513c7436A4b5C").call()
         .then(function (result) {
-    var content = "URGD faucet balance: ";
+    var content = "LOL faucet balance: ";
             alert(result/100000000);
     content += JSON.stringify(result.toString()/100000000);
     $("#lang5").html(content);
@@ -205,7 +205,7 @@ function balanceBank() {
     //$("#lang6").html(content);
     var event = contractVandals.methods.balanceOf("0x91b33d1030a466379ac6c887c5c57203e7a8fd29").call()
         .then(function (result) {
-    var content = "Vandals Bank balance: ";
+    var content = "Jokers Bank balance: ";
             alert(result/100000000);
     content += JSON.stringify(result.toString()/100000000);
     $("#lang6").html(content);
@@ -307,7 +307,7 @@ function balanceBank2() {
     //$("#lang13").html(content);
     var event = contractUnderground.methods.balanceOf("0x634db42e314295b0ba12d1289e82ce3242d281e9").call()
         .then(function (result) {
-    var content = "Vandals Bank balance: ";
+    var content = "Jokers Bank balance: ";
             alert(result/100000000);
     content += JSON.stringify(result.toString()/100000000);
     $("#lang13").html(content);
@@ -321,7 +321,7 @@ function totalFees() {
     //$("#lang").html(content);
     var event = contractUnderground.methods.totalFees().call()
         .then(function (result) {
-    var content = "Total URGD fees (half is burned): ";
+    var content = "Total LOL fees (half is burned): ";
             alert(result/100000000);
     content += JSON.stringify(result.toString()/100000000);
     $("#lang").html(content);
