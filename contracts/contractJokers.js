@@ -365,4 +365,4 @@ var contractVandals = new web3.eth.Contract(
         "stateMutability": "nonpayable",
         "type": "function"
     }
-], "0x2a886b947d5a8f0e09408C9069914Fa44C06ed7e");
+], "0x2BC398fD147f7F3E8e093a43d188Be3AF5C59dCD");

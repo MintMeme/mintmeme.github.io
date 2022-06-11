@@ -439,4 +439,4 @@ var contractZombie = new web3.eth.Contract(
 			"stateMutability": "nonpayable",
 			"type": "function"
 		}
-	], "0x80453ACDfE0073D6743B27D72e06F48777EeAd80");
+	], "0x82E412523593773170C44adF4f7629e797F427D1");

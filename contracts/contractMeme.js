@@ -704,4 +704,4 @@ var contractMaze = new web3.eth.Contract(
             "stateMutability": "view",
             "type": "function"
         }
-    ], "0x481De06DCA0198844faA36FCa04Db364e5c2f86C");
+    ], "0xc277A0F8405dC5c45A55726955eb6C4d430D61c2");
