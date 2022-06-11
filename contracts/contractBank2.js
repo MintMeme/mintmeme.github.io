@@ -374,4 +374,4 @@ var contractBank2 = new web3.eth.Contract(
 		"stateMutability": "view",
 		"type": "function"
 	}
-], "0x381Fe35FCcA720efda008Ed182D0210519928638");
+], "0x634db42e314295b0ba12d1289e82ce3242d281e9");
