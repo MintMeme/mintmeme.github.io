@@ -6,7 +6,7 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 
 contract VandalsBank is Ownable {
 
-    string public name = "Vandals Bank";
+    string public name = "Bank";
     address public stake; // token to stake 
     address public reward; // token to claim as reward (must be different than token to stake)
     uint256 public defaultAPR; // e.g. 700 is 7%

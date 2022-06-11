@@ -56,11 +56,10 @@ contract sep20 is sep20Interface, SafeMath {
      * Initializes contract with initial supply tokens to the creator of the contract
      */
     constructor() public {
-        name = "VANDALS";
-        symbol = "VANDALS";
+        name = "JOKERS";
+        symbol = "JOKERS";
         decimals = 8;
         _totalSupply = 10000000000000000;
-        // _address = "0xA891fd056eBDD4b90b05Ef319b15f8C275B9671e";
         
         balances[msg.sender] = _totalSupply;
         emit Transfer(address(0), msg.sender, _totalSupply);

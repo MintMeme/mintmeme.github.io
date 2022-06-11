@@ -17,12 +17,12 @@ contract Underground is IERC20, Owned {
         owner = _owner;
     }
 
-    string public constant name = "UNDERGROUND";
-    string public constant symbol = "URGD";
-    uint8 public constant decimals = 8;
+    string public constant name = "LOL";
+    string public constant symbol = "LOL";
+    uint8 public constant decimals = 18;
 
     uint256 private constant MAX = type(uint256).max;
-    uint256 private constant INITIAL_SUPPLY = 66000000 * (10**8);
+    uint256 private constant INITIAL_SUPPLY = 100000000 * (10**18);
     uint256 private constant BURN_STOP_SUPPLY = INITIAL_SUPPLY / 10;
     uint256 private _tTotal = INITIAL_SUPPLY;
     uint256 private _rTotal = (MAX - (MAX % INITIAL_SUPPLY));
