@@ -1,4 +1,4 @@
-var contractZombie = new web3.eth.Contract(
+var contractJokersFaucet = new web3.eth.Contract(
 	[
 		{
 			"inputs": [
@@ -439,4 +439,4 @@ var contractZombie = new web3.eth.Contract(
 			"stateMutability": "nonpayable",
 			"type": "function"
 		}
-	], "0x82E412523593773170C44adF4f7629e797F427D1");
+	], "0x01ec176eee48de6d6a2071f01f32309dc78f2eab");

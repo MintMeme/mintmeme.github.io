@@ -29,7 +29,7 @@ function balanceFaucet() {
     //var content = "Your address: ";
     //content += jokerMaster;
     //$("#lang2").html(content);
-    var event = contractJoker.methods.balanceOf("0xa78f4c29dd4d4dfa1124cbcfe72da230f80879c8").call()
+    var event = contractJoker.methods.balanceOf("0x01ec176eee48de6d6a2071f01f32309dc78f2eab").call()
         .then(function (result) {
     var content = "Joker faucet balance: ";
             alert(result);

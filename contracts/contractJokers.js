@@ -1,4 +1,4 @@
-var contractVandals = new web3.eth.Contract(
+var contractJokers = new web3.eth.Contract(
 [
     {
         "inputs": [],
